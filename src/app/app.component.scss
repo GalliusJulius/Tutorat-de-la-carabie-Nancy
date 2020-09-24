@@ -1,0 +1,60 @@
+.tcn-navbar{
+  background-color: $lowlow !important;
+  height: 50px;
+  font-family: "Segoe UI";
+  .navbar-text{
+    color: $secondary;
+  }
+  .navbar-nav{
+    margin-left: 100px;
+  }
+  .navbar-brand{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+  }
+  .tcn-navbar-hide{
+    display: none;
+  }
+  .navbar-toggler-ico{
+    color: $secondary;
+  }
+  .tcn-navbar-accountLogo{
+    background-image: url("../assets/icons/account.svg");
+    height: 30px;
+    width: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-size: contain;
+    margin-left: 10px;
+  }
+  .tcn-nav-item {
+    .nav-link, .dropdown-item, .dropdown-toggle::after, .nav-link:hover, {
+      color: $secondary;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .tcn-navbar{
+    height: min-content !important;
+  }
+  .tcn-navbar-show{
+    display: none !important;
+  }
+  .tcn-navbar-hide{
+    display: inline-block !important;
+  }
+  .navbar-brand{
+    position: initial !important;
+  }
+  .navbar-nav{
+    margin-left: 0px!important;
+  }
+  .navbar-brand{
+    img{
+      height: 60px;
+    }
+  }
+}

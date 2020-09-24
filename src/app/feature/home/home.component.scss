@@ -1,0 +1,32 @@
+.tcn-home-fullSize{
+  background-image: url("../../../assets/images/background_home.svg");
+  width: 100%;
+  height: 95vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tcn-home-article-title{
+  color: $primary;
+}
+
+.tcn-home-separator{
+  height: 1px;
+  width: 80%;
+  background-color: $secondary;
+  margin: auto;
+}
+
+.tcn-home-article{
+  display: flex;
+  .tcn-home-col{
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+  }
+  .tcn-home-article-text{
+    width: 70%;
+    margin: auto;
+  }
+}
