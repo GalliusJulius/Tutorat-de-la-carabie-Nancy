@@ -9,5 +9,14 @@ $white:#FFFFFF;
 $fontTitle:Verdana;
 $fontText:Arial;
 
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
 @import 'app/app.component';
 @import 'app/feature/home/home.component';
+@import "app/utils/networks/networks.component";

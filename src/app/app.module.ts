@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { DonsComponent } from './lazy-features/dons/dons.component';
+import { HomeModule } from './feature/home/home.module';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +16,8 @@ import { DonsComponent } from './lazy-features/dons/dons.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

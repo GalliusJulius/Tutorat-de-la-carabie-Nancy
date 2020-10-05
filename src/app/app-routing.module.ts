@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {HomeComponent} from './feature/home/home.component';
+import { HomeComponent} from './feature/home/home.component';
 import {DonsComponent} from './lazy-features/dons/dons.component';
 
 const routes: Routes = [

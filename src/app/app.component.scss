@@ -36,9 +36,37 @@
   }
 }
 
+
+.tcn-footer{
+  height: 50px;
+  background-color: $lowlow !important;
+  .tcn-footer-description{
+    display: flex;
+    text-align: center;
+    width: max-content;
+    margin: auto;
+    color: $primary;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: $fontText;
+  }
+  .tcn-icon-email{
+    background-image: url("../assets/icons/ion_mail.svg");
+    height: 25px;
+    width: 25px;
+    background-size: contain;
+  }
+  .tcn-footer-networks{
+    position: absolute;
+    right: 20px;
+  }
+}
+
+
+
 @media (max-width: 992px) {
   .tcn-navbar{
-    height: min-content !important;
+    height: max-content !important;
   }
   .tcn-navbar-show{
     display: none !important;
