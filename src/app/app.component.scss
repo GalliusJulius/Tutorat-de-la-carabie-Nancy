@@ -1,7 +1,7 @@
 .tcn-navbar{
   z-index: 5;
   background-color: $lowlow !important;
-  height: 50px;
+  height: 90px;
   font-family: "Segoe UI";
   .navbar-text{
     color: $secondary;
@@ -11,9 +11,12 @@
   }
   .navbar-brand{
     position: fixed;
-    top: 0px;
-    left: 0px;
+    top: 2px;
+    left: 15px;
     z-index: 100;
+    .tcn-image{
+      width: 80px;
+    }
   }
   .tcn-navbar-hide{
     display: none;
@@ -80,10 +83,5 @@
   }
   .navbar-nav{
     margin-left: 0px!important;
-  }
-  .navbar-brand{
-    img{
-      height: 60px;
-    }
   }
 }

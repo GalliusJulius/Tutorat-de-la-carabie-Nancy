@@ -14,7 +14,7 @@
   font-size: 70px;
   position: relative;
   left: 90px;
-  top: 100px;
+  top: 120px;
   width: max-content;
 }
 
@@ -26,7 +26,7 @@
 .tcn-group-donate{
   position: absolute;
   right: 20px;
-  top: 70px;
+  top: 100px;
   width: max-content;
   .tcn-donate-link{
     display: flex;
@@ -103,7 +103,7 @@
   .tcn-group-donate {
     left: 20px;
     top: unset;
-    bottom: 100px;
+    bottom: 180px;
     .tcn-donate{
       font-size: 20px;
     }
@@ -115,7 +115,7 @@
   .tcn-slogan{
     font-size: 45px;
     left: inherit;
-    top: 180px;
+    top: 300px;
     width: 100%;
     text-align: center;
   }
@@ -124,7 +124,7 @@
     width: fit-content;
     height: fit-content;
     position: absolute;
-    top: 100px;
+    top: 120px;
     left: 20px;
   }
 
